@@ -4,9 +4,12 @@ from transformers import (
     set_seed,
 )
 from datasets import load_dataset
-from utils import load_config
+from pathlib import Path
 
-config = load_config("config.yaml")
+from src.utils.config import load_config
+
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+config = load_config(str(PROJECT_ROOT / "config" / "config.yaml"))
 set_seed(123)
 
 class DataSet():

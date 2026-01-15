@@ -1,10 +1,13 @@
 from transformers import TrainingArguments, Trainer, AutoModelForSequenceClassification
-from utils import load_config
 from sklearn.metrics import accuracy_score, f1_score
 import torch
 import numpy as np
+from pathlib import Path
 
-config = load_config("config.yaml")
+from src.utils.config import load_config
+
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+config = load_config(str(PROJECT_ROOT / "config" / "config.yaml"))
 
 class Train():
     def __init__(self):

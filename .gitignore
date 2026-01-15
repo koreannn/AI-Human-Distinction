@@ -1,17 +1,31 @@
+# ============================================
+# AI-Human-Distinction .gitignore
+# ============================================
+
 # Environment files (API keys)
 .env
 .env.local
 .env.*.local
+data_generation/.env
 
 # Data files (too large for git)
 *.csv
-!submissions/*.csv
-!colab_notebooks/*.csv
-
 *.parquet
 *.pkl
 *.pickle
 *.xlsx
+data/
+
+# Model checkpoints & outputs (large files)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.bin
+outputs/checkpoints/*
+outputs/submissions/*
+!outputs/checkpoints/.gitkeep
+!outputs/submissions/.gitkeep
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -27,20 +41,28 @@ venv/
 env/
 .venv/
 
-# IDE
+# IDE & OS
 .vscode/
 .idea/
 *.swp
 *.swo
 .DS_Store
+*.code-workspace
 
-# Model checkpoints
-*.pt
-*.pth
-*.ckpt
-*.h5
-checkpoints/
+# Deprecated code
+deprecated/
 
-# Notes
+# Notes & temp files
 note.py
 note.ipynb
+*.log
+
+# Dev memos (local only)
+devlog/
+back_front.md
+DATA_PATH_GUIDE.md
+ITERATIVE_REFINEMENT_GUIDE.md
+package-lock.json
+
+# Presentation (too large)
+presentation/

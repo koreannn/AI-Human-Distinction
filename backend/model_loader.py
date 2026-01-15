@@ -13,7 +13,12 @@ from pathlib import Path
 class ModelLoader:
     """Manages model checkpoints and loading"""
     
-    def __init__(self, checkpoint_dir: str = "./checkpoints"):
+    def __init__(self, checkpoint_dir: str = None):
+        # checkpoint_dir은 프로젝트 루트 기준
+        if checkpoint_dir is None:
+            # backend/ 폴더에서 실행되더라도 프로젝트 루트의 outputs/checkpoints를 찾음
+            project_root = Path(__file__).parent.parent
+            checkpoint_dir = project_root / "outputs" / "checkpoints"
         self.checkpoint_dir = Path(checkpoint_dir)
         self.model_name = "klue/bert-base"
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
