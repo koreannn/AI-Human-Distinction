@@ -2,7 +2,7 @@
 
 > **Detection을 넘어 Decision으로** — 설명 가능한 장문 AI 탐지 의사결정 보조 시스템
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Vercel-black?style=for-the-badge)](https://ai-human-detect.vercel.app)
+[![Presentation](https://img.shields.io/badge/📊_Presentation-Vercel-black?style=for-the-badge)](https://ai-human-detect.vercel.app)
 [![Demo Video](https://img.shields.io/badge/📺_Demo_Video-YouTube-red?style=for-the-badge)](https://youtu.be/4ZUMAO5vzjc)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?style=flat-square)](https://fastapi.tiangolo.com)
@@ -15,7 +15,7 @@
 
 > 👆 클릭하여 데모 영상 보기
 
-**🔗 라이브 데모:** [https://ai-human-detect.vercel.app](https://ai-human-detect.vercel.app)
+**📊 발표 장표:** [https://ai-human-detect.vercel.app](https://ai-human-detect.vercel.app)
 
 ---
 
