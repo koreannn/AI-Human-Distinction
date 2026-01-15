@@ -2,6 +2,14 @@
 
 > **Detection을 넘어 Decision으로** — 설명 가능한 장문 AI 탐지 의사결정 보조 시스템
 
+| 이름 | 역할                                                                                          |
+| --- |---------------------------------------------------------------------------------------------|
+| 홍성재 |  |
+| 안례진 |  |
+| 손영진 |  |
+| 소형선 |  |
+| 윤희라 |  |
+
 [![Presentation](https://img.shields.io/badge/📊_Presentation-Vercel-black?style=for-the-badge)](https://ai-human-detect.vercel.app)
 [![Demo Video](https://img.shields.io/badge/📺_Demo_Video-YouTube-red?style=for-the-badge)](https://youtu.be/4ZUMAO5vzjc)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square)](https://python.org)
