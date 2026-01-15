@@ -4,11 +4,11 @@
 
 | 이름 | 역할                                                                                          |
 | --- |---------------------------------------------------------------------------------------------|
-| 홍성재 |  |
-| 안례진 |  |
-| 손영진 |  |
-| 소형선 |  |
-| 윤희라 |  |
+| 홍성재 | 깃허브 및 서버 환경 세팅, 모델 서치 및 모델링, 프로젝트 리딩 |
+| 안례진 | 데이터 분석, 전처리 및 EDA, 리서치, QA, ML Modeling, 시각화 |
+| 손영진 | PM, Modeling(BERT, ML), 가설 수립 및 검증, 프론트엔드, 발표, 비즈니스 로직 개발 |
+| 소형선 | 데이터분석, 데이터품질 향상, 샘플링, 데이터증강, EDA, 리서치, 문서작업 |
+| 윤희라 | EDA, 백엔드, 서버 구성(g5.xlarge), 배포, 리서치  |
 
 [![Presentation](https://img.shields.io/badge/📊_Presentation-Vercel-black?style=for-the-badge)](https://ai-human-detect.vercel.app)
 [![Demo Video](https://img.shields.io/badge/📺_Demo_Video-YouTube-red?style=for-the-badge)](https://youtu.be/4ZUMAO5vzjc)
